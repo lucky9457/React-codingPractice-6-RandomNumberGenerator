@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.main {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sec_main {
+  background-color: white;
+  border-radius: 10px;
+  height: 50vh;
+  border: solid 1px;
+  padding: 30px;
+  width: 30vw;
+  text-align: center;
+}
+.hh {
+  font-size: 20px;
+  color: black;
+  color: blue;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.coun {
+  color: blue;
+  font-size: 40px;
+}
+.pp {
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (width<=970px) {
+  .Sec_main {
+    background-color: white;
+    border-radius: 10px;
+    height: 50vh;
+    border: solid 1px;
+    padding: 30px;
+    width: 80vw;
+    text-align: center;
+  }
+}
